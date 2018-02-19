@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    image: ruby-dev:1.0
+    command: ["irb"]
